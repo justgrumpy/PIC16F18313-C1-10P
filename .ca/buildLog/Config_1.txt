@@ -1,0 +1,57 @@
+make -f nbproject/Makefile-Config_1.mk SUBPROJECTS= .clean-conf
+make[1]: Entering directory 'C:/dev/uart.X'
+rm -f  -r .ca/build/Config_1/production
+rm -f  -r .ca/dist/Config_1/production
+make[1]: Leaving directory 'C:/dev/uart.X'
+[32mCLEAN SUCCESSFUL (total time: 152ms)[0m
+make -f nbproject/Makefile-Config_1.mk SUBPROJECTS= .build-conf
+make  -f nbproject/Makefile-Config_1.mk .ca/dist/Config_1/production/uart.X.production.hex
+make[2]: Entering directory 'C:/dev/uart.X'
+"C:\Program Files\Microchip\xc8\v3.00\bin\xc8-cc.exe"  -mcpu=16F18313 -c   -mdfp="C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16F1xxxx_DFP/1.26.410/xc8"  -O1 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_Config_1=Config_1  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits   -std=c99 -gdwarf-3 -mstack=compiled:auto:auto     -o .ca/build/Config_1/production/mcc_generated_files/system/src/config_bits.p1 mcc_generated_files/system/src/config_bits.c 
+make[2]: Leaving directory 'C:/dev/uart.X'
+make[2]: Entering directory 'C:/dev/uart.X'
+"C:\Program Files\Microchip\xc8\v3.00\bin\xc8-cc.exe"  -mcpu=16F18313 -c   -mdfp="C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16F1xxxx_DFP/1.26.410/xc8"  -O1 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_Config_1=Config_1  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits   -std=c99 -gdwarf-3 -mstack=compiled:auto:auto     -o .ca/build/Config_1/production/mcc_generated_files/system/src/clock.p1 mcc_generated_files/system/src/clock.c 
+make[2]: Leaving directory 'C:/dev/uart.X'
+make[2]: Entering directory 'C:/dev/uart.X'
+"C:\Program Files\Microchip\xc8\v3.00\bin\xc8-cc.exe"  -mcpu=16F18313 -c   -mdfp="C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16F1xxxx_DFP/1.26.410/xc8"  -O1 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_Config_1=Config_1  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits   -std=c99 -gdwarf-3 -mstack=compiled:auto:auto     -o .ca/build/Config_1/production/mcc_generated_files/system/src/interrupt.p1 mcc_generated_files/system/src/interrupt.c 
+make[2]: Leaving directory 'C:/dev/uart.X'
+make[2]: Entering directory 'C:/dev/uart.X'
+"C:\Program Files\Microchip\xc8\v3.00\bin\xc8-cc.exe"  -mcpu=16F18313 -c   -mdfp="C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16F1xxxx_DFP/1.26.410/xc8"  -O1 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_Config_1=Config_1  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits   -std=c99 -gdwarf-3 -mstack=compiled:auto:auto     -o .ca/build/Config_1/production/mcc_generated_files/uart/src/eusart.p1 mcc_generated_files/uart/src/eusart.c 
+make[2]: Leaving directory 'C:/dev/uart.X'
+make[2]: Entering directory 'C:/dev/uart.X'
+"C:\Program Files\Microchip\xc8\v3.00\bin\xc8-cc.exe"  -mcpu=16F18313 -c   -mdfp="C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16F1xxxx_DFP/1.26.410/xc8"  -O1 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_Config_1=Config_1  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits   -std=c99 -gdwarf-3 -mstack=compiled:auto:auto     -o .ca/build/Config_1/production/mcc_generated_files/system/src/system.p1 mcc_generated_files/system/src/system.c 
+make[2]: Leaving directory 'C:/dev/uart.X'
+make[2]: Entering directory 'C:/dev/uart.X'
+"C:\Program Files\Microchip\xc8\v3.00\bin\xc8-cc.exe"  -mcpu=16F18313 -c   -mdfp="C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16F1xxxx_DFP/1.26.410/xc8"  -O1 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_Config_1=Config_1  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits   -std=c99 -gdwarf-3 -mstack=compiled:auto:auto     -o .ca/build/Config_1/production/main.p1 main.c 
+make[2]: Leaving directory 'C:/dev/uart.X'
+make[2]: Entering directory 'C:/dev/uart.X'
+"C:\Program Files\Microchip\xc8\v3.00\bin\xc8-cc.exe"  -mcpu=16F18313 -c   -mdfp="C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16F1xxxx_DFP/1.26.410/xc8"  -O1 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_Config_1=Config_1  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits   -std=c99 -gdwarf-3 -mstack=compiled:auto:auto     -o .ca/build/Config_1/production/mcc_generated_files/system/src/pins.p1 mcc_generated_files/system/src/pins.c 
+make[2]: Leaving directory 'C:/dev/uart.X'
+make[2]: Entering directory 'C:/dev/uart.X'
+"C:\Program Files\Microchip\xc8\v3.00\bin\xc8-cc.exe"  -mcpu=16F18313 -Wl,-Map=.ca/dist/Config_1/production/uart.X.production.map  -DXPRJ_Config_1=Config_1  -Wl,--defsym=__MPLAB_BUILD=1   -mdfp="C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16F1xxxx_DFP/1.26.410/xc8"  -O1 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto      -Wl,--memorysummary,.ca/dist/Config_1/production/memoryfile.xml -o .ca/dist/Config_1/production/uart.X.production.elf  .ca/build/Config_1/production/mcc_generated_files/system/src/clock.p1 .ca/build/Config_1/production/mcc_generated_files/system/src/interrupt.p1 .ca/build/Config_1/production/mcc_generated_files/uart/src/eusart.p1 .ca/build/Config_1/production/mcc_generated_files/system/src/config_bits.p1 .ca/build/Config_1/production/mcc_generated_files/system/src/system.p1 .ca/build/Config_1/production/main.p1 .ca/build/Config_1/production/mcc_generated_files/system/src/pins.p1     
+mcc_generated_files/system/src/interrupt.c:53:: warning: (520) function "_INT_ISR" is never called
+mcc_generated_files/system/src/interrupt.c:62:: warning: (520) function "_INT_CallBack" is never called
+mcc_generated_files/uart/src/eusart.c:120:: warning: (520) function "_EUSART_Deinitialize" is never called
+mcc_generated_files/uart/src/eusart.c:135:: warning: (520) function "_EUSART_Disable" is never called
+mcc_generated_files/uart/src/eusart.c:141:: warning: (520) function "_EUSART_TransmitEnable" is never called
+mcc_generated_files/uart/src/eusart.c:146:: warning: (520) function "_EUSART_TransmitDisable" is never called
+mcc_generated_files/uart/src/eusart.c:156:: warning: (520) function "_EUSART_ReceiveDisable" is never called
+mcc_generated_files/uart/src/eusart.c:161:: warning: (520) function "_EUSART_SendBreakControlEnable" is never called
+mcc_generated_files/uart/src/eusart.c:166:: warning: (520) function "_EUSART_SendBreakControlDisable" is never called
+mcc_generated_files/uart/src/eusart.c:171:: warning: (520) function "_EUSART_AutoBaudSet" is never called
+mcc_generated_files/uart/src/eusart.c:183:: warning: (520) function "_EUSART_AutoBaudQuery" is never called
+mcc_generated_files/uart/src/eusart.c:188:: warning: (520) function "_EUSART_IsAutoBaudDetectOverflow" is never called
+mcc_generated_files/uart/src/eusart.c:193:: warning: (520) function "_EUSART_AutoBaudDetectOverflowReset" is never called
+mcc_generated_files/uart/src/eusart.c:208:: warning: (520) function "_EUSART_IsTxDone" is never called
+mcc_generated_files/uart/src/eusart.c:213:: warning: (520) function "_EUSART_ErrorGet" is never called
+mcc_generated_files/system/src/pins.c:94:: warning: (520) function "_PIN_MANAGER_IOC" is never called
+
+16F18313 Memory Summary:
+    Program space        used   41Fh (  1055) of   800h words   ( 51.5%)
+    Data space           used    49h (    73) of   100h bytes   ( 28.5%)
+    EEPROM space         used     0h (     0) of   100h bytes   (  0.0%)
+    Configuration bits   used     4h (     4) of     4h words   (100.0%)
+    ID Location space    used     0h (     0) of     4h bytes   (  0.0%)
+
+make[2]: Leaving directory 'C:/dev/uart.X'
+[32mBUILD SUCCESSFUL (total time: 2s)[0m

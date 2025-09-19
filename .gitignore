@@ -1,0 +1,37 @@
+# MPLAB X IDE
+nbproject/private/
+nbproject/Makefile*
+nbproject/Package-
+nbproject/configurations.xml
+nbproject/Makefile-local-*.mk
+nbproject/Makefile-default.mk
+nbproject/Makefile-impl.mk
+nbproject/Makefile-genesis.properties
+nbproject/Makefile-variables.mk
+# Build output
+build/
+debug/
+*.elf
+*.hex
+*.cof
+*.map
+*.asm
+*.o
+*.obj
+*.d
+*.p1
+*.i
+*.sdb
+*.sym
+*.lst
+*.bin
+*.log
+*.tmp
+*.bak
+*.mdb
+*.db
+# User-specific files
+*.X.user
+*.X.lock
+# VS Code
+.vscode/
